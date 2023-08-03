@@ -1,2 +1,4 @@
-# expenses-parser
-parse my expenses md files into csv
+# Expense parser
+
+example `23] -10,56 launch`
+pattern  `r"(?m)^(\d+)\] ([\-\+]?\d+[,\.]?\d*) (.*)$"`
